@@ -1,17 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-    <%@ include file ="/WEB-INF/view/member/layout/header.jsp" %>
-    <!-- terms content 시작 -->
-        <section class="module">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <h4 class="font-alt mb-0">일반 회원 이용자 약관 동의</h4>
-                <hr class="divider-w mt-10 mb-20">
-                <div class="row multi-columns-row">
-                  <div class="col-sm-6 col-md-6 col-lg-12">
-                    <div class="form-group">
-                      <textarea class="form-control" rows="8" readonly="readonly" id="message" name="message" placeholder="Your Message*" style="width: 100%;">
+	pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/view/member/layout/header.jsp"%>
+<!-- terms content 시작 -->
+<section class="module">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h4 class="font-alt mb-0">일반 회원 이용자 약관 동의</h4>
+				<hr class="divider-w mt-10 mb-20">
+				<div class="row multi-columns-row">
+					<div class="col-sm-6 col-md-6 col-lg-12">
+						<div class="form-group">
+							<textarea class="form-control" rows="8" readonly="readonly"
+								id="message" name="message" placeholder="Your Message*"
+								style="width: 100%;">
                       
                         여러분을 환영합니다.
 네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
@@ -133,16 +135,21 @@
 네이버 서비스와 관련하여 궁금하신 사항이 있으시면 고객센터(대표번호: 1588 – 3820/ 평일 09:00~18:00)로 문의 주시기 바랍니다.
 
                       </textarea>
-                      <div>일반 회원 이용자 약관 동의 <input type="checkbox" id="check_terms1" style="float: left; margin-right: 1%;"></div>
-                    </div>
-                  </div>
-                </div>
+							<div>
+								일반 회원 이용자 약관 동의 <input type="checkbox" id="check_terms1"
+									style="float: left; margin-right: 1%;">
+							</div>
+						</div>
+					</div>
+				</div>
 
-                <h4 class="font-alt mt-40 mb-0">All Features Item</h4>
-                <hr class="divider-w mt-10 mb-20">
-                <div class="row multi-columns-row mb-70">
-                  <div class="col-sm-6 col-md-6 col-lg-12">
-                    <textarea class="form-control" rows="8" readonly="readonly" id="message" name="message" placeholder="Your Message*" style="width: 100%;">
+				<h4 class="font-alt mt-40 mb-0">All Features Item</h4>
+				<hr class="divider-w mt-10 mb-20">
+				<div class="row multi-columns-row mb-70">
+					<div class="col-sm-6 col-md-6 col-lg-12">
+						<textarea class="form-control" rows="8" readonly="readonly"
+							id="message" name="message" placeholder="Your Message*"
+							style="width: 100%;">
                       
                       여러분을 환영합니다.
 네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
@@ -264,17 +271,24 @@
 네이버 서비스와 관련하여 궁금하신 사항이 있으시면 고객센터(대표번호: 1588 – 3820/ 평일 09:00~18:00)로 문의 주시기 바랍니다.
 
                     </textarea>
-                    <div>14세 이상 약관 동의 <input type="checkbox" id="check_terms2" style="float: left; margin-right: 1%;"></div>
-                  </div>
-                </div>
-              </div>
-              <button type="submit" class="btn-round btn-b terms-btn" style="margin: auto; display: block;" onclick="checkForm()">다음 단계로</button>
-              <br>
-              <button type="submit" class="btn-round btn-b terms-btn" style="margin: auto; display: block; background-color: darkgrey; white-space: pre; color: #000;">  처음으로  </button>
-            </div>
-          </div>
-        </section>
+						<div>
+							14세 이상 약관 동의 <input type="checkbox" id="check_terms2"
+								style="float: left; margin-right: 1%;">
+						</div>
+					</div>
+				</div>
+			</div>
+			<button type="submit" class="btn-round btn-b terms-btn"
+				style="margin: auto; display: block;" onclick="checkForm()">다음
+				단계로</button>
+			<br>
+			<button type="submit" class="btn-round btn-b terms-btn"
+				style="margin: auto; display: block; background-color: darkgrey; white-space: pre; color: #000;">
+				처음으로</button>
+		</div>
+	</div>
+</section>
 
-    <%@ include file ="/WEB-INF/view/member/layout/footer.jsp" %>
+<%@ include file="/WEB-INF/view/member/layout/footer.jsp"%>
 
 
