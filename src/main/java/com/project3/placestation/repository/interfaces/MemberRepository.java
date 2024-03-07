@@ -123,7 +123,8 @@ public interface MemberRepository {
 	// 업데이트 유저 데이터 호출
 	public Member selectUserNo(int userno);
 	
-	
+	// 비밀번호 찾기
+	public void findPassword(Member dto);
 	
 	
 	

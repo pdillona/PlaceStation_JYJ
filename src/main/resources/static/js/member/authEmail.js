@@ -128,6 +128,7 @@ console.log("프리벤트 아래!!!!!22222")
 					//update시에 모달에서 인증한 email값 uEmail로 전달
 					$('input[name=uEmail]').val(email);
 					isEmailOk = true;
+					$('#forgotUpdatePasswordModal').show();
 				} else {
 					$('.msgEmail').css('color', 'red').text('이메일 인증에 실패했습니다.');
 					$('.resultEmailForId').css('color', 'red').text('이메일 인증에 실패했습니다.');
