@@ -45,10 +45,7 @@
                   </div>
                   </div>
                   <div class="form-group" style="position: absolute; width: 93%;">
-                    <button class="col-md-2 terms-btn" 
-												style="padding: 3px !important; float: right; color: #fff; width: 38%; color: black; background-color: white; float: left;"
-												type="button" data-toggle="modal"
-												data-target="#exampleModalEmail">Forgot Password?</button>
+                    <!-- <a href="" style="font-weight: 600;">Forgot Password?</a>  -->
                     <a href="/user/uterms" style="float: right; font-weight: 600; position: relative; padding-left: 5%;">User Register</a>
                     <a href="/user/sterms" style="float: right; font-weight: 600; position: relative;">Seller Regist</a>
                     </div>
