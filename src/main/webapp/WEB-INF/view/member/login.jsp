@@ -57,3 +57,5 @@
         </section>
       <!--로그인 섹션 끝-->
   <%@ include file ="/WEB-INF/view/layout/footer.jsp" %>
+      <%@ include file="/WEB-INF/view/layout/myPageUpdateEmailModal.jsp"%>
+      <%@ include file="/WEB-INF/view/layout/forgotUpdatePasswordModal.jsp"%>

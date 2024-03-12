@@ -375,6 +375,19 @@ public class MemberService {
 		wishListRepository.userDeleteWishList(userno,prodNo);
 		
 	}
+	
+	public void findPassword(String username, String password) {
+		
+		Member dto = new Member();
+		dto.setUsername(username);
+		dto.setUserpassword(password);
+		
+		memberRepository.findPassword(dto);
+		
+	}
+	
+	
+	
 
 	
 	
